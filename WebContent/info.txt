@@ -1,0 +1,80 @@
+EQ7
+-----
+DOAN, Cuong
+IPENZA MARIN, Luis Angel
+ROY, Patrice
+SCHMIDT, Francis
+
+index
+-----
+La page index est la page d'accueil, on peut y voir les vidéos récents et les vidéos les plus populaire. 
+
+login
+-----
+Page pour faire l'inscription de nouveaux usagers et la connexion des anciens usagers.
+On peut y accéder par le lien 'Connexion' en haut à droite du site.
+
+profile
+-------
+Cette page permet à un utilisateur anonyme de visionner la page personelle d'un utilisateur.
+On peut y accéder en cliquant sur le nom d'un utilisateur, par exemple sur la page de visionnement de vidéos.
+
+search_res
+----------
+Liste de vidéos qui correspondent aux résultats de la recherche.
+Accessible en cliquant sur le bouton 'Rechercher' en haut du site.
+
+signin
+------
+Cette page permet à un utilisateur qui ne possède pas un compte d'en créer un.
+Accessible via le lien 'Connexion' en haut à droite.
+
+user_account
+------------
+Cette page permet à un utilisateur connecté de voir ses informations personnelles.
+Accessible via le lien 'Mon Compte' sur la barre de navigation pour un usager connecté.
+
+user_account_edit
+-----------------
+Cette page permet à un utilisateur connecté de modifier ses informations personnelles.
+Accessible en cliquant sur le bouton 'Modifier' lors du visionnement des informations personnelles du compte.
+
+user_addVideo
+-------------
+Cette page permet à un utilisateur connecté d'ajouter une vidéo qui se trouve sur sa machine, vers le site.
+Il peut lui donner un titre, une catégorie, une étiquette et une description.
+On peut accéder à cette page en cliquant sur le bouton 'Ajouter' sur la liste des vidéos d'un utilisateur (user_myvideo)
+
+user_index
+----------
+Cette page est la même que index mais pour un usager connecté. Elle offre plus d'option sur le navigateur.
+
+user_list
+---------
+Cette page permet à un utilisateur connecté de visionner ses listes des lecture.
+Accessible via le lien 'Mes Listes' sur la barre de navigation pour un usager connecté.
+
+user_myvideo
+------------
+Cette page permet à un utilisateur connecté de visionner ses vidéos.
+Accessible via le lien 'Mes Vidéos' sur la barre de navigation pour un usager en ligne.
+
+user_profile
+------------
+Page personnelle d'un utilisateur enregistré sur laquelle on peut regarder ses videos et ses listes.
+On peut y accéder en cliquant sur le nom d'un utilisateur, par exemple sur la page de visionnement de vidéos.
+
+user_search_res
+---------------
+Cette page affiche les résultats de recherche pour un utilisateur connecté.
+On peut y accéder en cliquant sur la bouton 'Rechercher' dans le haut du site.
+
+user_view_video
+---------------
+Cette page permet à un utilisateur connecté de visionner une vidéo, avec quelques options comme ajouter des commentaires.
+Accessible en cliquant sur le lien d'une vidéo (représenter par une image)
+
+view_video
+----------
+Cette page permet à un utilisateur anonyme de visionner une vidéo.
+Accessible en cliquant sur le lien d'une vidéo (représenter par une image)

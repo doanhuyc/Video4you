@@ -1,0 +1,773 @@
+* {
+	margin: 0;
+	padding: 0;
+  }
+
+body {
+  font-size:100%;
+  font-family: Arial,'Lucida Grande',Verdana,sans-serif;
+  text-align:center;
+  background:#000 url(images/background.gif) repeat-x top left;
+}
+
+input#btLogin{
+	width: 100px; 
+	margin: 0 auto;
+} 
+.signinClass th{width: 195px; float:left; display: block; text-align: right; padding-right: 10px}
+.signinClass td{width: 700px !important; display: block;}
+.signinClass td span{font-size: 14px; padding-left:10px}
+input#btSignin{
+	width: 100px; 
+	margin: 0 auto;
+	margin-left: 205px
+}
+
+.loginClass th{width: 195px; float:left; display: block; text-align: right; padding-right: 10px}
+.loginClass td{width: 700px !important; display: block;}
+.loginClass td span{font-size: 13px; padding-left:5px}
+
+.modifyClass th{width: 170px; float:left; display: block; text-align: right; padding-right: 10px}
+.modifyClass td{width: 700px !important; display: block;}
+.modifyClass td span{font-size: 13px; padding-left:5px}
+ul
+{
+     list-style-type: none;
+}
+
+li a
+{
+color: #518BBA;	
+
+}
+
+#log_in li
+{
+    margin-top: 3px;
+    margin-right: 15px;
+    float:right;	    
+    display: inline-block;
+ 
+     	
+}
+ 
+
+#container {
+  width:1000px;
+  background:#FFF;
+  margin:0 auto 0 auto;
+}
+
+#body_space {
+  padding:0 8px 0 8px;
+}
+  
+#header {
+  width:984px;
+  background:#FFF;
+  margin:0 auto 0 auto;
+}
+
+.cls {
+clear:both;
+}
+
+/* logo and small slogan */
+
+#logo-block {
+	height: 150px;
+	width: 950px;
+	float: left;
+	text-align: center;
+}
+
+#search_bar 
+{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+
+#in_search
+{
+	width:230px;
+}
+
+#logo {
+	padding-top: 20px;
+	line-height: 40px;
+	font: 48px Arial, "Times New Roman", Times;
+	padding-left: 27px;
+	color: #5A5A5A;
+}
+
+#slogan {
+  font:14px Arial, "Times New Roman", Times;
+  color:#5A5A5A;
+  padding-left:97px;
+}
+
+.logoblue {
+color:#518BBA;
+}
+
+/* end logo and small slogan */
+
+/* top login and search */
+
+#definels {
+	width: 500px;
+	float: right;
+	height: 126px;
+	padding-left: 20px;
+}
+
+#login_top {
+	height: 35px;
+	text-align: left;
+	padding-left: 80px;
+ }
+
+ #login_top p {
+	font: 14px Arial, "Times New Roman", Times;
+	color: #518BBA;
+	padding-top: 10px;
+	float: left;
+	padding-right: 20px;
+ }
+ 
+#login_top input {
+	margin: 6px 0;
+	padding-right: 30px;
+	float: left;
+	width: 100px;
+}
+
+input#user_id {
+    color: #000000;
+    font-size: 14px;
+    height: 17px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 250px;
+}
+input#user_email {
+    color: #000000;
+    font-size: 14px;
+    height: 17px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 250px;
+}
+input#user_id {
+    color: #000000;
+    font-size: 14px;
+    height: 17px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 250px;
+}
+input#user_password{
+    color: #000000;
+    font-size: 14px;
+    height: 17px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 250px;
+}
+input#fileUpload{
+    color: #000000;
+    font-size: 14px;
+    height: 17px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 250px;
+}
+fileUpload
+input#password_confirm{
+    color: #000000;
+    font-size: 14px;
+    height: 17px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 250px;
+}
+
+input#user_name{
+    color: #000000;
+    font-size: 14px;
+    height: 17px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 250px;
+}
+input#user_bday{
+    color: #000000;
+    font-size: 14px;
+    height: 17px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 250px;
+}
+
+.topinputstyle{
+  border:0px;
+  background:#D1D1D1;
+  width:77px;
+  height:17px;
+  color:#000;
+  font-size:14px;
+  padding-top:5px;
+  padding-bottom:2px;
+  padding-left:10px;
+}
+
+.loginbutton{
+  background:transparent url(images/loginbutton.gif) no-repeat top left;
+  border:none;
+  width:22px;
+  height:22px;
+  cursor:pointer;
+  padding-left:10px;
+  margin-top:2px;
+}
+
+#search {
+	clear: left;
+	width: 259px;
+	margin-left: 43px;
+	margin-top: 30px;
+}
+
+#search input.box {
+  color: #000;
+  font-size: 14px;
+  width: 160px;
+  height: 17px;
+  background: #FFF;
+  border:1px solid #A6A6A6;
+  margin-right: 5px;
+}
+
+#search button.btn {
+  width: 79px;
+  height: 21px;
+  cursor: pointer;
+  color:#fff;
+  background: #fbc900 url(images/search.gif) no-repeat top left;
+}
+
+#upload_picture_button
+{
+  width: 30px;
+  margin-left: 5px;	
+}
+
+/* top login and search */
+
+/* top navigation bar */
+
+#top-nav-bg  {
+  background:transparent url(images/topnavbar.gif) no-repeat top left;
+  height:38px;
+  width:984px;
+}
+
+	
+#top-nav {
+  height:38px;
+  width:984px;
+}
+  
+#top-nav ul {
+  list-style:none;
+  padding-left:20px;
+}
+  
+#top-nav ul a {
+  background-image: url(images/topnavdivider.gif);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 18px;
+  padding-left: 16px;
+  display: block;
+  line-height: 38px;
+  text-decoration: none;
+  font-family: Arial, "Times New Roman", Times, serif;
+  font-size: 17px;
+  color: #FFF;
+}
+	
+#top-nav ul a:hover {
+  color: #FDA041;
+  text-decoration: underline;
+}
+ 
+  #top-nav li {
+	float: left;
+	}
+	
+/* end top navigation bar */
+
+
+/* image of clouds with large header */
+
+#clouds {
+  background:url(images/clouds.jpg) no-repeat top left;
+  width:984px;
+  height:156px;
+  text-shadow:1px 1px 1px #000;
+  margin-top:9px;
+}
+
+#clouds-slogan1 {
+  font:48px Georgia, Arial, "Times New Roman", Times;
+  padding:25px 0px 0px 130px;
+  color:#FFF;
+  text-align:left;
+  letter-spacing:-2px;
+}
+#clouds-slogan2 {
+  font:48px Georgia, Arial, "Times New Roman", Times;
+  padding:0px 0px 0px 367px;
+  color:#FFF;
+  text-align:left;
+  letter-spacing:-2px;
+}
+
+/* end image of clouds with large header */
+
+
+#page {
+  width:1000px;
+  min-height:206px;
+  margin:0 auto 0 auto;
+  background:#FFF;
+  padding-top:8px;
+}
+
+#page-padding {
+  padding:3px 8px 0px 8px;
+}
+
+/* main page content */
+
+#content {
+	float: left;
+	width: 984px;
+}
+
+#content-padding {
+  padding:15px;
+}
+
+#content h1,h2,h3,h4,h5 {
+	padding: 5px 5px 10px 5px;
+	font: 32px Arial, "Times New Roman", Times;
+	color: #518bba;
+	text-align: left;
+}
+
+#content h6 {
+	text-align: left;
+}
+
+
+#content p {
+	padding: 0px 5px 10px 5px;
+	text-align: justify;
+	color: #6C6C6C;
+}
+
+#content a {
+  text-decoration: underline;
+  color:#0B3E70;
+}
+	
+#content a:hover {
+  text-decoration:none;
+  text-shadow:0px 0px 4px #FDA041;
+}
+
+.grey {
+  color:#494949;
+}
+.blue {
+  color:#005795;
+}
+
+/* end main page content */
+
+/* right menu, navigation, newsletter */
+
+#right-nav {
+  float:right;
+  width:283px;
+  text-align:left;
+}
+
+.right-nav-back {
+  background:#FFF url(images/right-menu-bg.gif) repeat-y top left;
+  width:283px;
+}
+
+.right-nav-top {
+  background:#FFF url(images/right-menu-top.gif) no-repeat top left;
+  width:283px;
+  height:36px;  
+}
+.right-nav-top p {
+  color:#FFF;
+  font:13px Arial, "Times New Roman", Times;
+  font-weight:bold;
+  padding:13px 0px 0px 10px;
+}
+.right-nav-bottom {
+  background:#FFF url(images/right-menu-bottom.gif) no-repeat top left;
+  width:283px;
+  height:12px;
+  padding-bottom:10px;
+}
+  
+#right-nav ul
+{
+  list-style:none;
+  text-align:left;
+  padding-top:10px;
+}
+  
+#right-nav li a
+{
+  background-image: url(images/right-menu-div.gif);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display:block;
+  padding:13px 0px 18px 15px;
+  line-height:15px;
+  text-decoration: none;
+  color: #494949;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size:19px;
+}
+  
+#right-nav li a:hover
+{
+  color:#C46A00;
+  text-decoration: underline;
+}
+  
+.right-nav-divider {
+  background: transparent url(images/menu-divider.gif) no-repeat top left;
+  width:226px;
+  height:1px;
+  padding-bottom:33px;
+}
+
+#subscribe {
+  text-align:right;
+  padding-right:30px;
+}
+
+#subscribe form {
+  margin-left:11px;
+}
+
+#subscribe input {
+  margin:6px 0;
+}
+
+.inputstyle {
+  background:#FFF;
+  border:1px solid #ADADAD;
+  width:250px;
+  height:22px;
+  color:#494949;
+  font-size:14px;
+  padding-top:5px;
+  padding-left:10px;
+}
+
+.button {
+  background:transparent url(images/button.jpg) no-repeat top left;
+  vertical-align:middle;
+  padding-bottom:5px;
+  border:none;
+  width:131px;
+  height:31px;
+  color:#FFF;
+  font:bold 13px Arial, Georgia, "Times New Roman", Times;
+  cursor:pointer;
+  margin-left:5px;
+}
+
+#search_button
+{
+	width: auto;
+}
+
+/* end right menu, navigation, newsletter */
+
+/* footer */
+
+#footer {
+	clear: both;
+	background: #000 url(images/footer.gif) repeat-x top left;
+	width: 1000px;
+	height: 75px;
+	margin: 0 auto 0 auto;
+	text-align: left;
+}
+
+#footer-pad {
+	width: 984px;
+	padding: 25px 0px 0px 0px;
+	text-align: center;
+}
+
+#footer p {
+  font:14px Arial, "Times New Roman", Times;
+  color:#929292;
+}
+
+#footer a {
+  color:#FFF;
+  text-decoration:underline;
+}
+
+#footer a:hover {
+  color:#C46A00;
+  text-decoration:none;
+}
+
+/* list page */
+
+#addlist_button
+{
+	width: auto;
+	height: 20px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px
+	
+}
+
+/*video */
+#comments 
+{
+text-align:left;
+
+}
+
+#video_list ul li
+{
+display: inline-block;
+
+}
+
+#video_list ul
+{
+
+border: #D8D8D8 1px solid;
+border-radius: 5px;
+width:730px;
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+}
+
+
+#video_list h1
+{
+color:#4682b4;
+font-size: 20px;
+}
+
+#video_list h1
+{
+color:#4682b4;
+font-size: 20px;
+}
+
+#video_info
+{
+	width: 620px;
+	height: 510px;
+	border: #005795 1px solid;
+	border-radius: 8px;
+	margin: 0px auto;
+	display: block;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	
+}
+
+#uv_comments
+{
+	width: 620px;
+	height: 350px;
+	border: #005795 1px solid;
+	border-radius: 8px;
+	margin: 0px auto;
+	display: block;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	
+}
+
+#uv_comment article
+{
+	padding:5px;
+}
+
+input [name=new_comment]
+{
+	width:600px;
+		
+	border: #005795 1px solid;
+	
+	
+}
+
+
+#uv_title
+{
+	margin-left: 180px;
+}
+
+#uv_comm
+{
+	margin-left: 180px;
+}
+
+
+#add_to_list
+{
+	margin-left: 200px;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+#video_view
+{
+	margin-top:10px;
+}
+
+#add_comment
+{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+#add_comment input
+{
+	height:50px;	
+}
+
+#uv_co1
+{
+	padding-left:5px;	
+}
+
+#add_comment button
+{
+	float:bottom;	
+}
+
+#search_sec
+{
+width: 200px;
+height: 120px;
+border: #DCDCDC 1px solid;
+border-radius: 8px;
+padding: 5px;
+}
+
+/*upload page */
+
+#browse_button
+{
+	width:6%;
+	height:25px;
+}
+
+#browse_in
+{
+	width:47%;
+}
+
+/* my video page */
+
+#add_button_mv
+{
+	float:left;
+	width:100px;
+	height: 22px;
+	margin-left : 20	px;
+}
+
+/* search page */
+
+#v_title_se
+{
+	vertical-align: middle;
+}
+#v_img_se
+{
+	vertical-align: middle;
+}
+
+/* end footer */
+#container #body_space #header #definels #login_top p {
+	font-weight: bold;
+}
+.connexion_button {
+	width: auto;
+	float: none;
+}
+.page_title {
+	font-size: 16px;
+	color: #518bba;
+}
+.form_labels {
+	float: right;
+}
+#page #page-padding #content #content-padding table {
+	text-align: left;
+}
+.page_header {
+	font-size: 28px;
+	color: #494949;
+}
+.comment_text_area {
+	width: 620px;
+	height: 50px;
+}
+#page #page-padding #content #comments #uv_comments #uv_co1 article table {
+	text-align: left;
+}
+.comment_header {
+	font-size: 20px;
+	font-style: italic;
+	color: #6C6C6C;
+}
+.comment_content {
+	font-size: 20px;
+}
+.comment_notice {
+	color: #F00;
+}
+.rq, .error{color: red}

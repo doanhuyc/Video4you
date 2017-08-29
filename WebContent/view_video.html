@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+	<title>VideoPlayer</title>
+	<link rel="stylesheet" media="screen" type="text/css" href="style.css" />
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  </head>
+
+  <body>
+
+	<section id="container">
+        <div id="body_space">
+        <div id="header">
+			
+		<nav id="log_in">
+		   <ul>
+			<li><a href="login.html">Connexion</a></li>
+		   </ul>
+		</nav>
+	
+		  <div id="logo-block">
+		    <!-- type your logo and small slogan here -->
+                    <p id="logo">Video<span class="logoblue">Player</span></p>
+		    <p id="slogan">Regarder vos vidéos préférées</p>
+		    <!-- end logo and small slogan -->
+		    <form id="search_bar" method="post" action="">
+				<input name="search" id="in_search"/>
+		
+				<input name="search_button" type="button" onClick="window.location='user_search_res.html'" class="search_button" id="search_button" value="Rechercher">
+		     </form>
+		  </div>
+	   
+           <div class="cls"></div>
+  	   <div id="top-nav-bg">
+            
+	   <div id="top-nav">
+			  <!-- start top navigation bar -->
+              <ul>
+                <li><a href="index.html">Accueil</a></li>
+              </ul>
+			  <!-- end top navigation bar -->
+            </div>
+
+	    </div>
+	    </div>
+      </div>
+	</section>
+	<div id="page">
+	  <div id="page-padding">
+       <!-- start content -->	    
+	    <div id="content">
+	      
+            <h1 id = "uv_title">Titre du vidéo</h1>
+	    <h6>&nbsp;</h6>
+           <section id="video_info">
+		<video src="videos/video.webm" id = "video_view" width="600" height="300" controls></video>
+		<p>&nbsp;</p>
+		<p>Description:</p>
+		<p>Catégorie:</p>
+		<p><a href="profile.html">Auteur:</a></p>
+		<p>&Eacute;tiquettes:</p>
+		<p><a href="#">Télécharger la vidéo</a></p>
+          </section>
+				
+            <section id="comments">
+	        <h4 id = "uv_comm"><br>
+	          Commentaires</h4>
+	        <p>&nbsp;</p>
+	        <section id="uv_comments">
+	          <section id = "uv_co1">
+	            <article>
+	   	  <p class="comment_notice"><span class="comment_notice">Vous devez vous connecter pour commenter</span></p>
+	   	  <table width="100%" border="0" cellspacing="0" cellpadding="10">
+	   	    <tr>
+	   	      <td bgcolor="#D4D4D4" class="comment_header" scope="row"><a href="profile.html">Utilisateur1</a> a dit le 13-02-15 à 00:00:</td>
+	   	      </tr>
+	   	    <tr>
+	   	      <td bgcolor="#FFFFFF" scope="row"><span class="comment_content">Voici un commentaire.</span><br>	   	        <br></td>
+	   	      </tr>
+	   	    <tr>
+	   	      <td bgcolor="#D4D4D4" class="comment_header" scope="row"><a href="profile.html">Utilisateur2</a> a dit le 13-02-15 à 00:00:</td>
+	   	      </tr>
+	   	    <tr>
+	   	      <td bgcolor="#FFFFFF" class="comment_content" scope="row">Voici un autre commentaire.<br>	   	        <br></td>
+	   	      </tr>
+	   	    <tr>
+	   	      <td bgcolor="#D4D4D4" class="comment_header" scope="row"><a href="profile.html">Utilisateur3</a> a dit le 13-02-15 à 00:00:</td>
+	   	      </tr>
+	   	    <tr>
+	   	      <td bgcolor="#FFFFFF" class="comment_content" scope="row">Superbe vidéo !<br>	   	        <br></td>
+	   	      </tr>
+	   	    </table>
+	   	</article>
+		</section>
+		<section id = "uv_co1"> </section>
+		</section>
+	    </section>	
+            </div>
+		
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h1>&nbsp;</h1>
+
+	  <!-- end content --></div>
+	  <div id="footer">
+	    <div id="footer-pad">
+	      <div class="line"></div>
+		  <!-- footer and copyright notice -->
+	      <p> Design by <a href="http://www.steves-templates.com">Steve's free website templates</a>.</p>
+		  <!-- end footer and copyright notice -->
+	    </div>
+	  </div>
+	</div>
+  </body>
+</html>

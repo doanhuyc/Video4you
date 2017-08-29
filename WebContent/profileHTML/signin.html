@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+	<title>VideoPlayer</title>
+	<link rel="stylesheet" media="screen" type="text/css" href="style.css" />
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  </head>
+
+  <body>
+	
+	
+
+	<div id="container">
+      <div id="body_space">
+        <div id="header">
+		  <nav id="log_in">
+			<ul>
+				<li><a href="../loginPage.jsp">Connexion</a></li>
+			</ul>
+		  </nav>
+		  <div id="logo-block">
+		    <!-- type your logo and small slogan here -->
+            <p id="logo">Video<span class="logoblue">Player</span></p>
+		    <p id="slogan">Regarder vos vidéos préférées</p>
+			<!-- end logo and small slogan -->
+			<form id="search_bar" method="post" action="">
+			<input name="search" id="in_search"/>
+		
+			<input name="search_button" type="button" onClick="window.location='search_res.html'" class="search_button" id="search_button" value="Rechercher">
+		    </form>
+		  </div>
+		  <div class="cls"></div>
+  		  <div id="top-nav-bg">
+            <div id="top-nav">
+			  <!-- start top navigation bar -->
+              <ul>
+                <li><a href="index.html">Accueil</a></li>
+              </ul>
+			  <!-- end top navigation bar -->
+            </div>
+	      </div>
+	    </div>
+      </div>
+	</div>
+	<div id="page">
+	  <div id="page-padding">
+        <!-- start content -->	    
+	    <div id="content">
+		
+	      <div id="content-padding">
+            <h1 class="page_title"><a href="../loginPage.jsp">Connexion</a> | Inscription</h1>
+            <form action="" method="post" enctype="multipart/form-data" name="form1">
+              <table width="65%" border="0" cellspacing="10" cellpadding="10">
+                <tr>
+                  <th class="form_labels" scope="row">Nom d'utilisateur</th>
+                  <td><input name="user_id" type="text" class="inputstyle" id="user_id"></td>
+                </tr>
+                <tr>
+                  <th class="form_labels" scope="row">Mot de passe</th>
+                  <td><input name="user_password" type="password" class="inputstyle" id="user_password"></td>
+                </tr>
+                <tr>
+                  <th class="form_labels" scope="row">Confirmation</th>
+                  <td><label for="password_confirm"></label>
+                  <input name="password_confirm" type="password" class="inputstyle" id="password_confirm"></td>
+                </tr>
+                <tr>
+                  <th class="form_labels" scope="row">Nom</th>
+                  <td><label for="user_name"></label>
+                  <input name="user_name" type="text" class="inputstyle" id="user_name"></td>
+                </tr>
+                <tr>
+                  <th class="form_labels" scope="row">Courriel</th>
+                  <td><label for="user_email"></label>
+                  <input name="user_email" type="text" class="inputstyle" id="user_email"></td>
+                </tr>
+                <tr>
+                  <th class="form_labels" scope="row">Addresse</th>
+                  <td><label for="user_adress"></label>
+                  <input name="user_adress" type="text" class="inputstyle" id="user_adress"></td>
+                </tr>
+                <tr>
+                  <th class="form_labels" scope="row">Photo</th>
+                  <td><label for="user_file"></label>
+                    <label for="user_file"></label>
+                  <input name="user_file" type="text" class="inputstyle" id="user_file"><label for="user_picture"></label></td>
+                </tr>
+                <tr>
+                  <th class="form_labels" scope="row">Date de naissance</th>
+                  <td><label for="user_bday"></label>
+                  <input name="user_bday" type="text" class="inputstyle" id="user_bday"></td>
+                </tr>
+                <tr>
+                  <th class="form_labels" scope="row">&nbsp;</th>
+                  <td><label for="user_picture">
+                    <input name="connexion_button" type="button" onClick="window.location='user_index.html'" class="connexion_button" id="connexion_button" value="Envoyer">
+                  </label></td>
+                </tr>
+              </table>
+            </form>
+	      </div>
+		</div>
+	  <!-- end content --></div>
+	  <div id="footer">
+	    <div id="footer-pad">
+	      <div class="line"></div>
+		  <!-- footer and copyright notice -->
+	      <p> Design by <a href="http://www.steves-templates.com">Steve's free website templates</a>.</p>
+		  <!-- end footer and copyright notice -->
+	    </div>
+	  </div>
+	</div>
+  </body>
+</html>
